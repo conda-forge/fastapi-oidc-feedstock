@@ -1,5 +1,5 @@
 {% set name = "fastapi-oidc" %}
-{% set version = "0.0.11" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: fff4d8248ea10fb202fba972b043f506f75d02bbc94130dd17598258cafef4d4
+  sha256: cac0682715ce9bd94af06d23627e8e0788d52d330b71f9be0bdd42fcc77fc4ff
 
 build:
   noarch: python
